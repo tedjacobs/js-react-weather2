@@ -5,7 +5,7 @@ class Titles extends React.Component {
     return (
       <div>
         <h1 className='title-container__title'>Weather App</h1>
-        <p className='title-container__subtitle'> Search weather around the world...</p>
+        <p className='title-container__subtitle'>Search for weather around the world...</p>
       </div>
     )
   }

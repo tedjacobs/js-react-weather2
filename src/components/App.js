@@ -1,14 +1,29 @@
 import React from 'react'
+import {
+  BrowserRouter,
+  Route
+} from 'react-router-dom'
 import Weather from './weather'
 import Form from './form'
 import Titles from './titles'
-// import Current from 'Current';
-// import Forecast from 'Forecast';
 // import Map from 'Map';
 
 const Api_Key = '15f7fdb47aa5b5cdfe330b630aa36a04';
 
 class App extends React.Component {
+
+  // App components
+  // import Header from './Header'
+  // import Current from 'Current'
+  // import Forecast from 'Forecast'
+
+  // <BrowserRouter>
+  //   <div className="container">
+  //     <Header />
+  //     <Route exact path="/" component={Current}/>
+  //     <Route path="/forecast" component={Forecast}/>
+  //   </div>
+  // </BrowserRouter>
 
   state = {
     temperature: undefined,
